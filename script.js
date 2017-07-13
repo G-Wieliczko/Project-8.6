@@ -9,7 +9,7 @@ var a = 10,
 	} else if (value > 0) {
 		console.log('Value is negative');
 	}
-	else if (value === NaN) {
+	else if (isNaN(value)) {
 		console.log('Value is not a number')
 	}
 
@@ -19,7 +19,7 @@ var a = 10,
 	else if (value != 0) {
 		console.log('Value is not equal 0');
 	}
-	else if (value === NaN) {
+	else if (isNaN(value)) {
 		console.log('Value is not a number')
 	}
 
